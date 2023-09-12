@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer</title>
+
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/a17a89c931.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="h-[100vh]">
+        <main class="font-monsterrat">
+            <div class="transition-all duration-300 show absolute bg-back-up h-[200px] flex flex-col px-5 items-center w-full top-[-300px] ">
+                <button class="px-2 text-sm hover:text-blue-600 w-full text-white text-center py-2 hover:bg-white hover:text-back-up" onclick="closeButton()">X</button>
+                <a class="px-2 text-sm hover:text-blue-600 w-full text-white text-center py-2 hover:bg-white hover:text-back-up" href="#">Home</a>
+                <a class="px-2 text-sm hover:text-blue-600 w-full text-white text-center py-2 hover:bg-white hover:text-back-up" href="#">About Us</a>
+                <a class="px-2 text-sm hover:text-blue-600 w-full text-white text-center py-2 hover:bg-white hover:text-back-up" href="#">Contact Me</a>
+                <a class="px-2 text-sm" href="#">
+                    <i class="fa-solid fa-magnifying-glass"></i> 
+                </a>
+            </div>
+            <section class="nav uppercase flex justify-between p-6 shadow-lg">
+                <!-- add shadow  -->
+                
+
+                <div class="logo">
+                    <h1 class="text-blue-600 font-bold text-xl"> Developer </h1>
+                </div>
+    
+                <div class="pages font-bold navbar lg:block md:block sm:hidden hidden">
+                    <a class="px-2 text-sm hover:text-blue-600" href="#">Home</a>
+                    <a class="px-2 text-sm hover:text-blue-600" href="#">About Us</a>
+                    <a class="px-2 text-sm hover:text-blue-600" href="#">Contact Me</a>
+                    <a class="px-2 text-sm" href="#">
+                        <i class="fa-solid fa-magnifying-glass"></i> 
+                    </a>
+                </div>
+                
+                <div class="lg:hidden md:hidden sm:block ">
+                    <button class="text-[30px] font-bold mobile-nav" onclick="openButton()">=</button>
+                </div>
+            </section>
+        </main>
+        <!-- hero section -->
+        <div class="max-w-[1200px] h-[81vh] items-center mx-auto flex justify-between px-[40px] flex-wrap lg:flex-nowrap md:flex-nowrap sm:flex-wrap">
+            <!-- hero card -->
+            <div class="lg:w-1/2 md:w-1/2 sm:w-full  flex flex-col gap-4">
+                <h1 class="text-[40px] font-bold">Hi, I am Zannah </h1>
+                <p class="text-[13px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, ullam nostrum.
+                    us nisi exercitationem quisquam. Rerum voluptatibus labore suscipit.</p>
+                <div class="flex gap-4">
+                    <button class="text-[14px] font-bold drop-shadow-md bg-primary text-white hover:shadow-black shadow-blue-400 hover:scale-110 bg-blue-600 px-7 py-2 text-white  shadow-md hover:bg-black transition-all duration-150">Contact Me</button>
+                    <button class="border-[1px] border-blue-600 font-bold px-7 py-2 hover:bg-back-up hover:scale-110 hover:border-black hover:shadow-md hover:text-white transition-all duration-150 ">Projects <i class="text-[14px] fa-solid fa-arrow-right"></i>
+                        <i></i></button>
+                </div>
+            </div>
+            <!-- img card shadow need to fix -->
+            <!-- tooltip are needed to develop -->
+            <div class="lg:w-1/2 md:w-1/2 sm:w-full ">
+                <div class="image flex max-w-md bg-black">
+                    <img class="w-full hover:scale-105 transition-all duration-150" src="../public/img/blackgirl.jpg" alt="">
+
+
+                </div>
+            </div>  
+            
+        </div>
+        <!-- foot link -->
+        <div class="flex justify-center  w-full gap-10">
+            <i class=" text-[30px] fa-brands fa-instagram hover:scale-125"></i>
+            <i class="text-[30px]  fa-brands fa-github hover:scale-125"></i>
+            <i class="text-[30px]  fa-brands fa-facebook hover:scale-125"></i>
+        </div>
+    </section>
+    <hr>
+    
+    <!-- bg [url('../public/img/work.webp') -->
+    <section class="lg:h-screen md:h-auto sm:h-auto [url('../public/img/space.png')] bg-cover bg-center relative">
+        <div class="max-w-[1200px] mx-auto px-[30px] gap-y-4 ">
+            
+            <!-- works page title -->
+            <div>
+                <h1 class="text-[40px] text-center py-5 text-black font-bold hover:scale-110 transition-all duration-150 hover:text-back-up">MY LATEST WORKS</h1>
+            </div>
+            
+            <!-- card COntainer -->
+            <div class="flex w-full justify-evenly pt-10 gap-y-4 gap-x-5 flex-wrap md:flex-nowrap lg:flex-nowrap">
+                <!-- card -->
+                <div class="lg:w-1/2 md:1/2 sm:w-full  pb-2 bg-white hover:scale-105 transition-all duration-200">
+                    <img class="grayscale w-full hover:grayscale-0 hover:scale-[.97] transition-all duration-150" src="../public/img/Best-Websites-for-Graphic-Design-Inspiration-2021.webp" alt="">
+                    <div class="text-[30px] px-4 text-black font-Rubik">GORILA PAGE</div>
+                    <p class="text-sm px-4 font-Rubik opacity-70">the UI UX DESIGN for branding </p>
+                </div>
+                <div class="lg:w-1/2 md:1/2 sm:w-full  pb-2 bg-white hover:scale-105 transition-all duration-200">
+                    <img class="grayscale w-full hover:grayscale-0 hover:scale-[.97] transition-all duration-150" src="../public/img/maxresdefault.jpg" alt="">
+                    <div class="text-[30px] px-4 text-black font-Rubik">THE MEDIUM</div>
+                    
+                    <p class="text-sm px-4 font-Rubik opacity-70">web development and application development </p>
+                </div>
+               
+                
+            </div>
+            
+            <div class="w-full border-[1px] h-36 mt-4 rounded-md flex justify-around items-center">
+                
+                <div class="flex justify-center flex-col text-center hover:scale-75 transition-all duration-150">
+                    <p class="font-bold text-back-up text-[18px]">FINISHED</p>
+                    <p>
+                        <span class="lg:text-[50px] md:text-[30px] sm:text-[25px] text-[18px] text-back-up font-bold">2</span>
+                        <span class="lg:text-[40px] md:text-[20px] sm:text-[20px] text-[18px] text-back-up font-bold">3</span>
+                        <span class="text-back-up text-[30px] font-bold">+</span></p>
+                </div>
+                <div class="flex justify-center flex-col text-center hover:scale-75 transition-all duration-150">
+                    <p class="font-bold text-back-up text-[18px]">PENDING..</p>
+                    <p> 
+                        <span class="lg:text-[40px] md:text-[20px] sm:text-[20px] text-[18px] text-back-up font-bold">0</span>
+                        <span class="lg:text-[50px] md:text-[30px] sm:text-[25px] text-[18px] text-back-up font-bold">8</span>
+                        
+                        <span class="text-back-up text-[30px] font-bold">+</span></p>
+                </div>
+                <div class="flex justify-center flex-col text-center hover:scale-75 transition-all duration-150">
+                    <p class="font-bold text-back-up text-[18px]">MEMBERS</p>
+                    <p>
+                        <span class="lg:text-[50px] md:text-[30px] sm:text-[25px] text-[18px] text-back-up font-bold">8</span>
+                        <span class="lg:text-[40px] md:text-[20px] sm:text-[20px] text-[18px] text-back-up font-bold">7</span>
+                        <span class="text-back-up text-[30px] font-bold">+</span></p>
+                </div>
+                
+                 
+            </div>
+            
+           
+
+        </div>
+    </section>
+    <!-- requesting to make changes for rwd by thurahex added max w -1200px -->
+         <!-- ABOUT ME -->
+    <section id="abt" class="max-w-[1200px] mx-auto grid lg:grid-cols-2 md:grid-cols-1 justify-center items-center p-7 h-screen ">
+            <!-- IMAGE -->
+            <div>
+              <img class="max-h-[480px] rounded-md" src="https://images.unsplash.com/photo-1611432579402-7037e3e2c1e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmxhY2slMjB3b21hbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+            </div>  
+
+          <!-- TEXTS -->
+          <div>
+              <h2 class="text-lg font-bold text-danger">Discover</h2>
+              <h1 class="text-3xl font-bold">About Me </h1>
+              <p class="mt-5">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut rerum possimus odit vel exercitationem placeat recusandae vitae aut quae voluptate consequatur blanditiis saepe sit, qui optio mollitia omnis quis dolore.
+              </p>
+              <!-- BOX -->
+              <div class="font-bold rounded-md mt-5 border-2 border-danger grid grid-cols-2 p-5">
+                <ul>
+                    <li class="py-2">Name:
+                        <span class="font-light">Cindy Kimberly</span>
+                    </li>
+                    <li class="py-2">Age:
+                        <span class="font-light">21</span>
+                    </li>
+                    <li class="py-2">Address:
+                        <span class="font-light">Newyork</span>
+                    </li>
+                    <li class="py-2">Phone:
+                        <span class="font-light">01-1234567</span>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="py-2">IG:
+                        <span class="font-light">@cindyyy_k</span>
+                    </li>
+                    <li class="py-2">Freelance:
+                        <span class="font-light">Available</span>
+                    </li>
+                    <li class="py-2">Github:
+                        <span class="font-light">@cindyyy_k</span>
+                    </li>
+                    <li class="py-2">Experience:
+                        <span class="font-light">3.5 Years</span>
+                    </li>
+                </ul>
+              </div>
+
+              <button class="bg-danger mt-7 p-5 rounded-md text-white active:bg-red-600"> DOWNLOAD CV </button>
+          </div>
+
+          </section>
+  <script src="app.js"></script>
+</body>
+
+</html>
